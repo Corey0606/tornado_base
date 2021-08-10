@@ -22,7 +22,7 @@ class do_reverse(tornado.web.RequestHandler):
 class do_reverse1(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
         # url = self.reverse_url('reverse_fixed')
-        self.write('hello')
+        self.write('hello11')
 
 class re_receive(tornado.web.RequestHandler):
     def get(self,a,b,c, *args, **kwargs):   # 传入数据已接收，正则分组方法
